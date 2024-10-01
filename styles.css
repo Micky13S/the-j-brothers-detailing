@@ -191,3 +191,21 @@ button:hover {
     margin-top: 20px; /* Optional: Adds space above the button if needed */
 }
 
+/* Social Media Styling */
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.social-icons a {
+    color: #ffd700; /* Gold color */
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #000; /* Changes color on hover */
+}
